@@ -3,6 +3,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -35,6 +36,14 @@ public class PropertiesFiles {
 	By	addCustomerWebElementField=By.xpath("//a[text()='Add Customer']");
 	By fullNameWebElementField=By.id("account");
 	By companyWebElementField=By.id("cid");
+	
+	public int generateRandomNumber() {
+		
+		Random rnd= new Random();
+		int RandonNumber=rnd.nextInt(999); 
+		
+		return RandonNumber;
+	}
 	
 	
 	
@@ -83,6 +92,9 @@ public void config() throws IOException {
 	}
 	@Test(priority=2)
 	public void test() throws InterruptedException {
+		int randomNum=generateRandomNumber();
+		
+		
 		driver.findElement(userNameWebElementField).sendKeys(username);
 		driver.findElement(passwordWebElementField).sendKeys(password);
 		driver.findElement(loginWebElementField).click();
@@ -102,11 +114,13 @@ public void config() throws IOException {
 		
 		Assert.assertEquals(actualAddCustomerPageText, expectedAddCustomerPageText, "page not found");
 		
-		driver.findElement(fullNameWebElementField).sendKeys(fullName);
+		driver.findElement(fullNameWebElementField).sendKeys(fullName+randomNum);
 		
 	WebElement companyWebElement=driver.findElement(companyWebElementField);
 	Select sel= new Select(companyWebElement);
 	sel.selectByVisibleText("Techfios");
+	
+	
 		
 		
 		

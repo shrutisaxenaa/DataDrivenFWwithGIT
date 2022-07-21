@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-21T16:53:52 CDT" name="Default suite" finished-at="2022-07-21T16:54:01 CDT" duration-ms="8737">
+  <suite started-at="2022-07-21T17:37:41 CDT" name="Default suite" finished-at="2022-07-21T17:37:50 CDT" duration-ms="8738">
     <groups>
     </groups>
-    <test started-at="2022-07-21T16:53:52 CDT" name="Default test" finished-at="2022-07-21T16:54:01 CDT" duration-ms="8737">
+    <test started-at="2022-07-21T17:37:41 CDT" name="Default test" finished-at="2022-07-21T17:37:50 CDT" duration-ms="8738">
       <class name="PropertiesFiles">
-        <test-method is-config="true" signature="config()[pri:0, instance:PropertiesFiles@1e6454ec]" started-at="2022-07-21T16:53:52 CDT" name="config" finished-at="2022-07-21T16:53:52 CDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="config()[pri:0, instance:PropertiesFiles@cad498c]" started-at="2022-07-21T17:37:41 CDT" name="config" finished-at="2022-07-21T17:37:41 CDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method signature="init()[pri:1, instance:PropertiesFiles@1e6454ec]" started-at="2022-07-21T16:53:52 CDT" name="init" finished-at="2022-07-21T16:53:56 CDT" duration-ms="3803" status="PASS">
+        <test-method signature="init()[pri:1, instance:PropertiesFiles@cad498c]" started-at="2022-07-21T17:37:41 CDT" name="init" finished-at="2022-07-21T17:37:45 CDT" duration-ms="3535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="config()[pri:0, instance:PropertiesFiles@1e6454ec]" started-at="2022-07-21T16:53:56 CDT" name="config" finished-at="2022-07-21T16:53:56 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="config()[pri:0, instance:PropertiesFiles@cad498c]" started-at="2022-07-21T17:37:45 CDT" name="config" finished-at="2022-07-21T17:37:45 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method signature="test()[pri:2, instance:PropertiesFiles@1e6454ec]" started-at="2022-07-21T16:53:56 CDT" name="test" finished-at="2022-07-21T16:54:01 CDT" duration-ms="4899" status="PASS">
+        <test-method signature="test()[pri:2, instance:PropertiesFiles@cad498c]" started-at="2022-07-21T17:37:45 CDT" name="test" finished-at="2022-07-21T17:37:50 CDT" duration-ms="5169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
